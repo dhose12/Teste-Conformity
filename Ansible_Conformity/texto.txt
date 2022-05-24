@@ -1,0 +1,5 @@
+#rodar o playbook no ansible
+ansible-playbook -i hosts provision.yaml -u amazon linux 2 --private-key ~/.ssh/terraform
+
+#acesso ssh máquina
+#ssh -i ~/.ssh/terraform ec2-user@os detalhes que da máquina
